@@ -1,0 +1,37 @@
+<!--pages/ucenter/ucenter.wxml-->
+<view class='user-center'>
+  <view class='user-info'>
+    <image class='user-avatrar' src='/static/images/placeholder_avatar.png' mode='aspectFit'>
+    </image>
+    <view class='user-right-info'>
+      <text class='user-login'>登陆</text>
+      <view class='user-assets'>
+        <view class='assets-item'>
+          <text class='count'>0.0</text>
+          <text class='name'>书豆余额</text>
+        </view>
+        <view class='assets-item'>
+          <text class='count'>0</text>
+          <text class='name'>书券（张）</text>
+        </view>
+        <view class='assets-item'>
+          <text class='count'>0</text>
+          <text class='name'>月票</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <usercenter-item imageUrl="/static/images/me_wallet.png" textContent="钱包" />
+  <usercenter-item imageUrl="/static/images/me_record.png" textContent="消费充值记录" />
+  <usercenter-item imageUrl="/static/images/me_buy.png" textContent="购买的书" />
+  <usercenter-item imageUrl="/static/images/me_vip.png" textContent="我的会员" />
+  <usercenter-item imageUrl="/static/images/me_coupon.png" textContent="绑兑换码" />
+  <usercenter-item imageUrl="/static/images/me_favorite.png" textContent="我的收藏" />
+  <usercenter-item imageUrl="/static/images/me_action.png" textContent="喜欢" />
+  <usercenter-item imageUrl="/static/images/me_theme.png" textContent="主题" />
+  <usercenter-item imageUrl="/static/images/me_record.png" textContent="团购交易记录" />
+  <usercenter-item imageUrl="/static/images/me_date.png" textContent="时间" />
+  <usercenter-item imageUrl="/static/images/me_comment.png" textContent="评论" />
+  <usercenter-item imageUrl="/static/images/me_setting.png" textContent="设置" />
+  <usercenter-item imageUrl="/static/images/me_feedback.png" textContent="网页" />
+</view>

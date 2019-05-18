@@ -1,0 +1,79 @@
+/* pages/video/video.wxss */
+
+.video {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  background: #f8f8f8;
+}
+
+.video-items {
+  width: 345rpx;
+  height: 315rpx;
+  background: #fff;
+  border-radius: 20rpx;
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.video-image {
+  width: 345rpx;
+  height: 200rpx;
+}
+
+.video-title {
+  display: -webkit-box;
+  word-break: break-all;
+  margin-left: 6rpx;
+  margin-right: 6rpx;
+  margin-top: 4rpx;
+  font-size: 24rpx;
+  color: #333;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.video-play-info {
+  width: 345rpx;
+  margin-top: 6rpx;
+  padding-left: 6rpx;
+  padding-right: 6rpx;
+}
+
+.video-left{
+  display: flex;
+  align-items: center;
+  float: left;
+}
+
+.video-play-icon {
+  width: 30rpx;
+  height: 30rpx;
+}
+
+.play-count {
+  color: #ff9a6a;
+  font-size: 24rpx;
+  margin-left: 4rpx;
+}
+
+.play-text {
+  color: #999;
+  font-size: 24rpx;
+}
+
+.play-star {
+  color: #999;
+  font-size: 24rpx;
+  float: right;
+}

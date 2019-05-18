@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/comic/comic",
+    "pages/ucenter/ucenter",
+    "pages/logs/logs",
+    "pages/video/video",
+    "pages/comic_detail/comicDetail",
+    "pages/comic-reader/comicReader"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": false,
+    "backgroundColor": "#FFFFFF",
+    "backgroundTextStyle": "dark"
+  },
+  "tabBar": {
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "selectedColor": "#ff9a6a",
+    "color": "#999",
+    "list": [
+      {
+        "pagePath": "pages/comic/comic",
+        "iconPath": "static/images/tab_comic_home_n.png",
+        "selectedIconPath": "static/images/tab_comic_home_p.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/video/video",
+        "iconPath": "static/images/tab_video_home_n.png",
+        "selectedIconPath": "static/images/tab_video_home_p.png",
+        "text": "短视频"
+      },
+      {
+        "pagePath": "pages/ucenter/ucenter",
+        "iconPath": "static/images/tab_mine_n.png",
+        "selectedIconPath": "static/images/tab_mine_p.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true,
+  "sitemapLocation": "sitemap.json"
+}

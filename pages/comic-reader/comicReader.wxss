@@ -1,0 +1,9 @@
+/* pages/comic-reader/comicReader.wxss */
+.reader{
+  display: flex;
+  flex-direction: column;
+}
+
+.reader image{
+  width: 750rpx;
+}

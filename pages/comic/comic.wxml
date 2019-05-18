@@ -1,0 +1,44 @@
+<!--comic.wxml-->
+<view class="container">
+  <swiper class="banner" indicator-dots="true" indicator-color="#e1e1e1" indicator-active-color="#ff9a6a" autoplay="true" interval="3000" duration="500" circular='true'>
+    <swiper-item wx:for="{{banner}}" wx:key="*this">
+      <image src="{{item}}" mode='aspectFill'></image>
+    </swiper-item>
+  </swiper>
+  <image class="block-header" src="../../static/images/comic_block_header.png" mode='aspectFit'></image>
+  <view class="m-block">
+    <navigator url="/pages/comic_detail/comicDetail?id={{item.id}}" hover-class="none" wx:for="{{blockList}}" wx:key="cover">
+      <view class="item">
+        <image src="{{item.cover}}" mode="aspectFill"></image>
+        <text class='block-title'>{{item.title}}</text>
+        <text class='block-dec'>{{item.description}}</text>
+      </view>
+    </navigator>
+  </view>
+  <image class="block-header" src="../../static/images/comic_recommend_everyday_header.png" mode='aspectFit'></image>
+  <navigator url="/pages/comic_detail/comicDetail?id={{item.id}}" hover-class="none">
+    <view class='recommend-every-day-item'>
+      <image src="{{recommendEveryDay.cover}}" mode="aspectFill" class='recommend-image'></image>
+      <view>
+        <text class='recommend-title'>{{recommendEveryDay.title}}</text>
+        <text class='recommend-author'>{{recommendEveryDay.author}}</text>
+      </view>
+    </view>
+  </navigator>
+  <image class="block-header" src="../../static/images/comic_update_today_header.png" mode='aspectFit'></image>
+  <view class='update_today-item'>
+    <image src="../../static/images/comic_update_today_left.png" mode="aspectFill" class='update_today-left-image'></image>
+    <view class="right-view">
+      <navigator url="/pages/comic_detail/comicDetail?id={{item.id}}" hover-class="none" wx:for="{{updateTodayList}}" wx:key="cover">
+        <view class="right-item">
+          <image src="{{item.cover}}" class='right-image' mode="aspectFill"></image>
+          <view class='text'>
+            <text class='block-title'>{{item.title}}</text>
+            <text class='block-dec'>{{item.author}}</text>
+            <text class='block-dec'>{{item.newUpdate}}</text>
+          </view>
+        </view>
+      </navigator>
+    </view>
+  </view>
+</view>

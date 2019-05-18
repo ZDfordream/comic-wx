@@ -1,0 +1,9 @@
+{
+  "desc": "仿腾讯动漫",
+  "rules": [
+    {
+      "action": "allow",
+      "page": "*"
+    }
+  ]
+}

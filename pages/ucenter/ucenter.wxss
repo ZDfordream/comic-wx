@@ -1,0 +1,56 @@
+/* pages/ucenter/ucenter.wxss */
+
+.user-center {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+}
+
+.user-avatrar {
+  width: 140rpx;
+  height: 140rpx;
+  margin-left: 30rpx;
+}
+
+.user-right-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50rpx;
+  justify-content: center;
+}
+
+.user-login {
+  color: #666;
+  font-size: 36rpx;
+}
+
+.user-assets {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.assets-item {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10rpx;
+  margin-right: 90rpx;
+}
+
+.assets-item .count {
+  color: #333;
+  font-size: 32rpx;
+  font-weight: 600;
+}
+
+.assets-item .name {
+  color: #999;
+  font-size: 22rpx;
+}

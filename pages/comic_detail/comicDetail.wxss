@@ -1,0 +1,294 @@
+/* pages/comic_detail/comicDetail.wxss */
+
+.scroll-view-detail {
+  width: 100%;
+  height: auto;
+  margin-bottom: 100rpx;
+}
+
+.top-overiew {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.top-overview-image-left {
+  width: 200rpx;
+  height: 300rpx;
+}
+
+.overview-right {
+  margin-left: 70rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.view-score {
+  display: flex;
+  align-items: center;
+}
+
+.overview-book-name {
+  color: #666;
+  font-size: 40rpx;
+}
+
+.overview-score {
+  display: inline-block;
+  border-radius: 25rpx;
+  margin-left: 10rpx;
+  height: 50rpx;
+  width: 50rpx;
+  line-height: 50rpx;
+  background: #ff9a6a;
+  color: #fff;
+  text-align: center;
+  align-items: center;
+}
+
+.overview-title {
+  display: block;
+  color: #666;
+  font-size: 30rpx;
+}
+
+.comic_tab {
+  width: 100%;
+  height: 84rpx;
+  font-size: 32rpx;
+  color: #4a4a4a;
+  display: flex;
+  border-bottom: 1px solid #f2f4f7;
+  margin-top: 10rpx;
+}
+
+.comic_tabb {
+  width: 33.33%;
+  text-align: center;
+  line-height: 70rpx;
+}
+
+.comic_tabb>view.active {
+  color: #ff9a6a;
+}
+
+.comic_border {
+  width: 64rpx;
+  height: 4rpx;
+  border-radius: 2rpx;
+  background: #ff9a6a;
+  margin: -4rpx auto 0;
+}
+
+.comic_title {
+  font-size: 32rpx;
+  color: #333;
+  margin: 40rpx 0 28rpx;
+}
+
+.detail-tab {
+  display: flex;
+  flex-direction: column;
+}
+
+.tab-decription {
+  display: block;
+  margin: 20rpx;
+}
+
+.tab1-title {
+  font-size: 18sp;
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+  color: #ff9a6a;
+}
+
+.tab-block {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 20rpx;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+}
+
+.tab1-item {
+  width: 220rpx;
+  height: 400rpx;
+  background: #fff;
+}
+
+.tab1-item image {
+  width: 220rpx;
+  height: 310rpx;
+}
+
+.tab1-item .block-title {
+  display: block;
+  height: 30rpx;
+  width: 100%;
+  color: #999;
+  font-size: 24rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+}
+
+.tab1-item .block-dec {
+  display: block;
+  height: 30rpx;
+  width: 100%;
+  color: #999;
+  font-size: 24rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+}
+
+.tab2-block {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+
+.tab2-chapter {
+  width: 205rpx;
+  height: 100rpx;
+  margin-top: 20rpx;
+  border: 1rpx solid #e5e5e5;
+  border-radius: 8rpx;
+  line-height: 100rpx;
+  text-align: center;
+}
+
+.tab2-more-chapter {
+  width: auto;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  height: 100rpx;
+  margin-top: 20rpx;
+  border: 1px solid #e5e5e5;
+  border-radius: 8rpx;
+  line-height: 100rpx;
+  text-align: center;
+}
+
+.bottom-view {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 10;
+  width: 750rpx;
+  height: 100rpx;
+  display: flex;
+  background: #fff;
+  border-top: 1px solid #f4f4f4;
+  padding-left: 70rpx;
+  align-items: center;
+}
+
+.tab-block-comment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tab3-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.comment-top {
+  display: flex;
+  align-items: center;
+  margin-top: 10rpx;
+}
+
+.tab3-item .avatar {
+  height: 60rpx;
+  width: 60rpx;
+  margin-left: 20rpx;
+  border-radius: 50%;
+}
+
+.tab3-item .comment-userinfo {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20rpx;
+}
+
+.comment-username {
+  display: block;
+  width: 100%;
+  color: #ff9a6a;
+  font-size: 24rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.comment-time {
+  display: block;
+  width: 100%;
+  color: #999;
+  font-size: 24rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.comment-content {
+  display: block;
+  width: 100%;
+  color: #333;
+  font-size: 30rpx;
+  margin-left: 100rpx;
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.comment-divider {
+  border-top: 1px solid #f2f4f7;
+  margin-left: 50rpx;
+}
+
+.bottom-view .download {
+  height: 70rpx;
+  width: 280rpx;
+}
+
+.bottom-view .begin-read-normal {
+  border-radius: 2rpx;
+  background: #ff9a6a;
+  margin-left: 50rpx;
+  height: 70rpx;
+  width: 300rpx;
+  line-height: 70rpx;
+  text-align: center;
+  font-size: 30rpx;
+  color: #fff;
+}
+
+.begin-read-presss {
+  border-radius: 2rpx;
+  background: #f48f18 !important;
+  margin-left: 50rpx;
+  height: 70rpx;
+  width: 300rpx;
+  line-height: 70rpx;
+  text-align: center;
+  font-size: 30rpx;
+  color: #fff;
+}

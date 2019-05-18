@@ -1,0 +1,51 @@
+/* lib/usercenter_item/userCenterItem.wxss */
+
+.user-center-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-content {
+  width: 750tpx;
+  height: 90rpx;
+}
+
+.left-item {
+  display: flex;
+  height: 90rpx;
+  flex-direction: row;
+  align-items: center;
+  float: left;
+  margin-left: 30rpx;
+}
+
+.left-image {
+  width: 35rpx;
+  height: 35rpx;
+}
+
+.content-text {
+  color: #666;
+  font-size: 32rpx !important;
+  line-height: 90rpx;
+  text-align: center;
+  margin-left: 30rpx;
+}
+
+.right-item {
+  display: flex;
+  align-items: center;
+  height: 90rpx;
+  float: right;
+  margin-right: 30rpx;
+}
+
+.right-image {
+  width: 30rpx;
+  height: 30rpx;
+}
+
+.usercenter-divider {
+  border-top: 1px solid #f2f4f7;
+  margin-left: 95rpx;
+}

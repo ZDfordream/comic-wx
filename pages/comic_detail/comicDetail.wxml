@@ -1,0 +1,101 @@
+<!--pages/comic_detail/comicDetail.wxml-->
+<scroll-view class='scroll-view-detail'>
+  <view>
+    <view class='top-overiew'>
+      <image src="{{overView.cover}}" class='top-overview-image-left' background-size="cover"></image>
+      <view class='overview-right'>
+        <view class='view-score'>
+          <text class='overview-book-name'>{{overView.title}}</text>
+          <text class='overview-score'>{{overView.score}}</text>
+        </view>
+        <text class='overview-title'>{{overView.tag}}</text>
+        <text class='overview-title'>{{overView.author}}</text>
+        <text class='overview-title'>人气：{{overView.popularity}}</text>
+        <text class='overview-title'>月票：{{overView.monthTicket}}</text>
+      </view>
+    </view>
+
+    <view>
+      <view class='comic_tab'>
+        <view class='comic_tabb' bindtap='onLeft'>
+          <view class='{{currentTab==0?"active":""}}'>
+            详情
+          </view>
+          <view class='{{currentTab==0?"comic_border":""}}'></view>
+        </view>
+        <view class='comic_tabb' bindtap='onMiddle'>
+          <view class='{{currentTab==1?"active":""}}'>
+            目录
+          </view>
+          <view class='{{currentTab==1?"comic_border":""}}'></view>
+        </view>
+        <view class='comic_tabb' bindtap='onRight'>
+          <view class='{{currentTab==2?"active":""}}'>
+            评论
+          </view>
+          <view class='{{currentTab==2?"comic_border":""}}'></view>
+        </view>
+      </view>
+
+      <view class='detail-tab1' wx:if='{{currentTab==0}}'>
+        <text class='tab-decription'>{{detailTab1.detail}}</text>
+        <text class='tab1-title'>骚年们都在看</text>
+        <view class='tab-block'>
+          <navigator url="/pages/comic_detail/comicDetail?id=1" hover-class="none" wx:for="{{detailTab1.recommendList}}" wx:key="cover">
+            <view class="tab1-item">
+              <image src="{{item.cover}}" mode="aspectFill"></image>
+              <text class='block-title'>{{item.title}}</text>
+              <text class='block-dec'>{{item.description}}</text>
+            </view>
+          </navigator>
+        </view>
+      </view>
+      <view wx:elif='{{currentTab==1}}'>
+        <view class='detail-tab'>
+          <text class='tab-decription'>{{detailTab2.updateTime}}</text>
+          <view class='tab2-block'>
+            <navigator url="/pages/comic-reader/comicReader?id=1" hover-class="none" wx:for="{{detailTab2.categoryList}}" wx:key="*this">
+              <view class='tab2-chapter'>
+                {{item}}
+              </view>
+            </navigator>
+          </view>
+          <view class='tab2-more-chapter'>{{detailTab2.actionName}}</view>
+          <text class='tab1-title'>骚年们都在看</text>
+          <view class='tab-block'>
+            <navigator url="/pages/comic_detail/comicDetail?id=1" hover-class="none" wx:for="{{detailTab2.recommendList}}" wx:key="cover">
+              <view class="tab1-item">
+                <image src="{{item.cover}}" mode="aspectFill"></image>
+                <text class='block-title'>{{item.title}}</text>
+                <text class='block-dec'>{{item.description}}</text>
+              </view>
+            </navigator>
+          </view>
+        </view>
+      </view>
+      <view wx:else='{{currentTab==2}}'>
+        <view class='tab-block-comment'>
+          <view class="tab3-item" wx:for="{{detailTab3.commentList}}" wx:key="avatar">
+            <view class='comment-top'>
+              <image class='avatar' src="{{item.avatar}}" mode="aspectFill"></image>
+              <view class='comment-userinfo'>
+                <text class='comment-username'>{{item.userName}}</text>
+                <text class='comment-time'>{{item.time}}</text>
+              </view>
+            </view>
+            <view class='comment-content'>{{item.content}}</view>
+            <view class='comment-divider'></view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</scroll-view>
+
+<!-- 底部按钮 -->
+<view class='bottom-view'>
+  <image src="/static/images/detail_bottom_read.png" class='download'></image>
+  <navigator url="/pages/comic-reader/comicReader?id=1" hover-class="none">
+    <view class="begin-read-normal" hover-class='begin-read-presss'>开始阅读</view>
+  </navigator>
+</view>

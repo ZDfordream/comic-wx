@@ -1,0 +1,4 @@
+<!--pages/comic-reader/comicReader.wxml-->
+<view class='reader'>
+  <image wx:for="{{imageList}}" wx:key="*this" src="{{item}}" mode="widthFix"></image>
+</view>

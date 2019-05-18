@@ -1,0 +1,139 @@
+.container {
+  box-sizing: border-box;
+  background-color: #f5f5ee;
+  font-family: PingFangSC-Light, helvetica, 'Heiti SC';
+}
+
+.banner {
+  width: 750rpx;
+  height: 417rpx;
+}
+
+.banner image {
+  width: 100%;
+  height: 430rpx;
+}
+
+.block-header {
+  width: 100%;
+  height: 90rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.m-block {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+}
+
+.m-block .item {
+  width: 230rpx;
+  height: 410rpx;
+  background: #fff;
+  border-radius: 15rpx;
+  overflow: hidden;
+  margin: 10rpx;
+}
+
+.m-block .item image {
+  width: 230rpx;
+  height: 330rpx;
+}
+
+.m-block .block-title {
+  display: block;
+  height: 30rpx;
+  width: 100%;
+  color: #999;
+  font-size: 24rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+}
+
+.m-block .block-dec {
+  display: block;
+  height: 30rpx;
+  width: 100%;
+  color: #999;
+  font-size: 24rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+}
+
+.recommend-every-day-item {
+  width: 750rpx;
+  height: auto;
+  background-color: #fff;
+  overflow: hidden;
+  padding-bottom: 10rpx;
+  margin-bottom: 15rpx;
+}
+
+.recommend-every-day-item .recommend-image {
+  width: 750rpx;
+  height: 375rpx;
+}
+
+.recommend-every-day-item .recommend-title {
+  float: left;
+  margin-left: 15rpx;
+}
+
+.recommend-every-day-item .recommend-author {
+  float: right;
+  margin-right: 15rpx;
+}
+
+.update_today-item {
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.update_today-item .update_today-left-image {
+  width: 250rpx;
+  height: 750rpx;
+  float: left;
+}
+
+.update_today-item .right-view {
+  width: 500rpx;
+  height: 750rpx;
+  float: right;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.update_today-item .right-item {
+  width: 500rpx;
+  height: 220rpx;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.update_today-item .right-item .right-image {
+  width: 140rpx;
+  height: 210rpx;
+  float: left;
+}
+
+.update_today-item .right-item .text {
+  width: 260rpx;
+  height: 220rpx;
+  display: flex;
+  margin-left: 35rpx;
+  flex-direction: column;
+  justify-content: center;
+}

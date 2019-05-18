@@ -1,0 +1,15 @@
+<!--pages/video/video.wxml-->
+<view class='video'>
+  <view class='video-items' wx:for="{{imageList}}" wx:key="*this">
+    <image class='video-image' src='{{item}}' mode="aspectFill"></image>
+    <text class='video-title'>#味里故乡#王晓晨 匡牧野山东篇：红瓦绿树间的文艺味道,红瓦绿树间的文艺味道</text>
+    <view class='video-play-info'>
+      <view class='video-left'>
+        <image class='video-play-icon' src='../../static/images/play_video.png'></image>
+        <text class='play-count'>1.3万</text>
+        <text class='play-text'>次播放</text>
+      </view>
+      <text class='play-star'>1305赞</text>
+    </view>
+  </view>
+</view>

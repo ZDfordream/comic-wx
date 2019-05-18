@@ -1,0 +1,12 @@
+<view class='user-center-item'>
+  <view class='item-content'>
+    <view class='left-item'>
+      <image src='{{imageUrl}}' class='left-image' mode='aspectFit'></image>
+      <text class='content-text'>{{textContent}}</text>
+    </view>
+    <view class='right-item'>
+      <image src='/static/images/go.png' class='right-image' mode='aspectFit'></image>
+    </view>
+  </view>
+  <view class='usercenter-divider'></view>
+</view>
