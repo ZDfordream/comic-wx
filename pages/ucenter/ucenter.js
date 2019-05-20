@@ -13,7 +13,7 @@ Page({
    */
   onLoad: function (options) {
     wx.setNavigationBarTitle({
-      title: '我的'
+      title: '我的(待完善)'
     })
   },
 

@@ -1,3 +1,4 @@
 {
-  "navigationBarTitleText": "腾讯动漫"
+  "navigationBarTitleText": "腾讯动漫",
+  "enablePullDownRefresh": true
 }

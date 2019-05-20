@@ -2,7 +2,9 @@
 <view class="container">
   <swiper class="banner" indicator-dots="true" indicator-color="#e1e1e1" indicator-active-color="#ff9a6a" autoplay="true" interval="3000" duration="500" circular='true'>
     <swiper-item wx:for="{{banner}}" wx:key="*this">
-      <image src="{{item}}" mode='aspectFill'></image>
+      <navigator url="/pages/comic_detail/comicDetail?id=1" hover-class="none">
+        <image src="{{item}}" mode='aspectFill'></image>
+      </navigator>
     </swiper-item>
   </swiper>
   <image class="block-header" src="../../static/images/comic_block_header.png" mode='aspectFit'></image>
