@@ -19,7 +19,7 @@ Page({
       imageList: videoImage.videoImgaeList,
     });
     wx.setNavigationBarTitle({
-      title: '短视频(待完善)'
+      title: '短视频'
     })
   },
 

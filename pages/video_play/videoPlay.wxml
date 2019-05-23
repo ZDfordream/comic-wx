@@ -1,0 +1,12 @@
+<view class="video-play">
+  <video id="myVideo" src="{{videoUrl}}" binderror="videoErrorCallback" poster="{{coverImage}}" danmu-list="{{danmuList}}" enable-danmu="true" danmu-btn="true" show-center-play-btn="true" show-play-btn="true" controls="true" show-mute-btn="true"></video>
+
+  <view class='danmu'>
+    <view class='danmu-text'>
+      <text class="danmu-left-tip">弹幕内容:</text>
+      <input bindblur="bindInputBlur" class="danmu-right-input" type="text" placeholder="在此处输入弹幕内容" placeholder-class="placeholder" value='{{initText}}'/>
+    </view>
+    <view class="send-danmu-normal" hover-class='send-danmu-presss' bindtap="bindSendDanmu">发送弹幕</view>
+  </view>
+    <toast id='toast'></toast>
+</view>

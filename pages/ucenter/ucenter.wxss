@@ -14,9 +14,11 @@
 }
 
 .user-avatrar {
-  width: 140rpx;
   height: 140rpx;
+  width: 140rpx;
   margin-left: 30rpx;
+  border-radius: 70px;
+  overflow: hidden;
 }
 
 .user-right-info {

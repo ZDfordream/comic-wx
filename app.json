@@ -5,7 +5,8 @@
     "pages/logs/logs",
     "pages/video/video",
     "pages/comic_detail/comicDetail",
-    "pages/comic-reader/comicReader"
+    "pages/comic-reader/comicReader",
+    "pages/video_play/videoPlay"
   ],
   "window": {
     "navigationBarBackgroundColor": "#FFFFFF",

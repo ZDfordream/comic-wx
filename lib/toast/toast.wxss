@@ -1,0 +1,22 @@
+.wx-toast-box{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  position: fixed;
+  z-index: 999;
+  bottom:80rpx;
+  opacity: 0;
+}
+.wx-toast-content{
+  max-width: 80%;
+  border-radius:15rpx;
+  padding: 15rpx 30rpx;
+  background: rgba(0, 0, 0, 0.6);
+}
+.wx-toast-toast{
+  height: 100%;
+  width: 100%;
+  color: #fff;
+  font-size: 24rpx;
+  text-align: center;
+}

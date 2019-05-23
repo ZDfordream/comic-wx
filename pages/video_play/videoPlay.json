@@ -1,6 +1,5 @@
 {
   "usingComponents": {
-    "usercenter-item": "/lib/usercenter_item/userCenterItem",
     "toast": "/lib/toast/toast"
   }
 }

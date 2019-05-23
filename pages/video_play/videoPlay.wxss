@@ -1,0 +1,75 @@
+@import "../../lib/weui.wxss";
+
+.weui-cells {
+  margin-top: 80rpx;
+  text-align: left;
+}
+
+.weui-label {
+  width: 5em;
+}
+
+.video-play {
+  display: flex;
+  flex-direction: column;
+}
+
+.video-play video {
+  width: 100%;
+}
+
+.danmu {
+  display: flex;
+  flex-flow: column;
+}
+
+.danmu-text {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40rpx;
+  align-items: center;
+}
+
+.danmu-left-tip {
+  font-size: 18sp;
+  margin-left: 20rpx;
+  color: #ff9a6a;
+}
+
+.danmu-right-input {
+  width: 550rpx;
+  margin-left: 15rpx;
+  margin-top: 5rpx;
+  color: #333;
+}
+
+.placeholder {
+  color: #999;
+  font-size: 18sp;
+}
+
+.send-danmu-normal {
+  border-radius: 15rpx;
+  background: #ff9a6a;
+  margin-top: 50rpx;
+  margin-left: 75rpx;
+  height: 80rpx;
+  width: 600rpx;
+  line-height: 80rpx;
+  text-align: center;
+  font-size: 30rpx;
+  color: #fff;
+}
+
+.send-danmu-presss {
+  border-radius: 15rpx;
+  background: #f48f18 !important;
+  margin-top: 50rpx;
+  margin-left: 75rpx;
+  height: 80rpx;
+  width: 600rpx;
+  line-height: 80rpx;
+  text-align: center;
+  font-size: 30rpx;
+  color: #fff;
+}

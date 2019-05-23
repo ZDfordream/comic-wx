@@ -1,0 +1,5 @@
+<view class='wx-toast-box' animation="{{animationData}}">
+  <view class='wx-toast-content'>
+    <view class='wx-toast-toast'>{{ content }}</view>
+  </view>
+</view>
