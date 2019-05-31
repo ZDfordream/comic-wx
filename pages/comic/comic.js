@@ -26,6 +26,9 @@ Page({
 
   onLoad: function() {
     this.getHomeComicData();
+    wx.setNavigationBarTitle({
+      title: '仿腾讯动漫'
+    });
   },
 
   getHomeComicData: function() {

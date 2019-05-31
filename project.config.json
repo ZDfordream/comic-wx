@@ -13,7 +13,7 @@
 		"checkInvalidKey": true
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.0.4",
+	"libVersion": "2.7.0",
 	"appid": "wx1bae8e807206ddf7",
 	"projectname": "comic-wx",
 	"debugOptions": {
