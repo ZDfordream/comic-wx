@@ -2,10 +2,10 @@
 另有[Flutter版本](https://github.com/ZDfordream/FlutterTianYue)(功能超全，值得一看)
 
 ## screenshot
-<img src="http://prs91vf13.bkt.clouddn.com/screenshot1.png" width="330" hspace="20">
-<img src="http://prs91vf13.bkt.clouddn.com/screenshot2.png" width="330" hspace="20">
-<img src="http://prs91vf13.bkt.clouddn.com/screenshot3.png" width="330" hspace="20">
-<img src="http://prs91vf13.bkt.clouddn.com/screenshot4.png" width="330" hspace="20">
+<img src="https://tianyue.oss-cn-hangzhou.aliyuncs.com/comic-wx/screenshot1.png" width="330" hspace="20">
+<img src="https://tianyue.oss-cn-hangzhou.aliyuncs.com/comic-wx/screenshot2.png" width="330" hspace="20">
+<img src="https://tianyue.oss-cn-hangzhou.aliyuncs.com/comic-wx/screenshot3.png" width="330" hspace="20">
+<img src="https://tianyue.oss-cn-hangzhou.aliyuncs.com/comic-wx/screenshot4.png" width="330" hspace="20">
 
 # **如果您觉得还可以的话，给个Star白~**
 
