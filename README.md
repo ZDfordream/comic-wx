@@ -1,5 +1,6 @@
 ## 微信小程序-仿腾讯动漫
 另有[Flutter版本](https://github.com/ZDfordream/FlutterTianYue)(功能超全，值得一看)
+[Vue版本](https://github.com/ZDfordream/comic-vue)
 
 ## screenshot
 <img src="https://tianyue.oss-cn-hangzhou.aliyuncs.com/comic-wx/screenshot1.png" width="330" hspace="20">

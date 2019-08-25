@@ -35,7 +35,7 @@ App({
   },
   globalData: {
     userInfo: null,
-    encryptedData:null,
-    iv:null
+    encryptedData: null,
+    iv: null
   }
 })
